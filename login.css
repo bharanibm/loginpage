@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+
+}
+.outer > .left{
+    /* background-color: aqua; */
+    /* width: 50%; */
+    flex-basis: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .left > img{
+    width: 600px;
+}
+.outer > .right{
+    background-color: rgb(24, 20, 20);
+    color: white;
+    /* width: 55%; */
+    flex-basis: 55%;
+    border: none;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.outer > .right > #form {
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px ;
+}
+.outer > .right > h1{
+    /* margin:; */
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.outer > .right > #form > label{
+    margin-left: 20px;
+    color: #000;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.outer > .right > #form > input {
+    height: 35px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+.outer > .right > #form > button {
+    background-color: greenyellow;
+    height: 35px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+.outer > .right > #form > button:hover{
+    background-color: rgb(255, 60, 0);
+    color: white;
+    box-shadow: 0px 2px 4px black;
+    transform: scale(1.02);
+}
+
+.outer > .right > .login{
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    text-transform: capitalize;
+    font-size: 16px;
+}

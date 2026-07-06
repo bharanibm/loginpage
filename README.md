@@ -11,7 +11,7 @@ A clean, modern, and split-screen responsive Signup Page built using semantic HT
 * **Clean Code Architecture**: Separated structures for layout (`index.html`) and presentation (`style.css`).
 
 ## 🚀 Live Demo
-URL
+https://loginpage-pied-one.vercel.app/
 
 ## 🛠️ Built With
 
@@ -25,12 +25,12 @@ To run this project locally, follow these simple steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/bharanibm/loginpage
    ```
 
 2. **Navigate into the project directory**
    ```bash
-   cd YOUR-REPOSITORY-NAME
+   cd loginpage
    ```
 
 3. **Open the project**
